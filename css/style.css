@@ -1,0 +1,291 @@
+.slider-2,
+.slider-3 {
+	display: none;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+    margin: 0;
+    padding: 0;
+}
+a:hover {
+	color: inherit;
+    text-decoration: inherit;
+}
+ul, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+figure {
+	padding: 0;
+	margin: 0;
+}
+.main-header {
+	margin-bottom: 80px;/*change if it's necessary*/
+}
+
+.clearfix::after {
+	content:"";
+	display: table;
+	clear: both;
+}
+.main-header {
+	padding-top: 25px;
+}
+.container {
+	width: 880px;
+	margin: 0 auto;
+	padding-right: 10px; 
+	padding-left: 10px;
+}
+.main-logo,
+.main-navigation,
+.navigation-list, 
+.navigation-item {
+	display: inline-block;
+}
+.slider h1 {
+	width: 320px;
+}
+.slider p {
+    width: 380px;
+    margin-bottom: 30px;
+}
+.slider-btn {
+	display: block;
+	margin-bottom: 80px;
+} 
+.main-logo {
+	float: left;
+	margin-bottom: -4px;
+
+} 
+.main-navigation {
+	float: right;
+	margin-top: 35px;
+
+}
+
+.header-top {
+	position: relative;
+	margin-bottom: 75px; 
+}
+.services-item {
+	width: 240px;
+	height: 125px;
+	display: inline-block;
+	margin-right: 75px;
+
+}
+.services-item:last-child {
+	margin-right: 0;
+}
+/*w240 x h125*/
+.services {
+	margin-bottom: 80px;
+}
+
+.comp-main-info {
+	margin-top: 80px;
+	margin-bottom: 75px;
+}
+.company-about {
+	width: 580px;
+	float: left;
+}
+.logo {
+	width: 240px;
+	float: right;
+}
+.company-activities {
+	width: 480px;
+	float: left;
+}
+.company-postulates {
+	width: 240px;
+	float: right;
+
+}
+.map {
+	min-height: 420px;
+	padding-top: 90px;
+	box-sizing: border-box;
+	margin-bottom: 75px;  
+}
+.map-contacts {
+	width: 250px;
+	height: 240px;
+}
+.socials-container {
+	display: inline-block;
+}
+.socials-item {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background-color: gray;
+	border-radius: 50%;
+	margin-right: 30px;
+}
+.socials-item:last-child {
+	margin-right: 0;
+}
+.socials-container {
+	margin-right: 80px;
+}
+.footer-socials-promo {
+	display: inline-block;
+}
+
+/*nerds-catalog.html*/
+
+div {
+	border: 1px solid red;
+}
+.catalog-promo {
+	width: 700px;
+	font-size: 40px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 90px;
+}
+fieldset {
+	border: none;
+	padding: 0;
+}
+form {
+	width: 240px;
+	float: left;
+/*	margin-right: 80px;*/
+}
+.catalog {
+	width: 560px;
+	float: right;
+}
+.sort-container p, 
+.sort-container a {
+	display: inline-block;
+	font-size: 12px;
+	line-height: 18px;
+}
+.sort-container p {
+	margin-right: 40px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.sort-container a {
+	margin-right: 45px;
+	color: #cacaca;
+	border-bottom: 1px dotted green;
+	font-weight: bold;
+}
+.sort-container {
+	margin-bottom: 25px;
+}
+.sort-decr,
+.sort-incr {
+	float: right;
+}
+.item-info {
+	display: none;
+}
+.item-slider {
+	background-color: #f1f1f1;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 13px;
+}
+.slider-switcher {
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	margin-right: 10px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	border: none;
+}
+
+.catalog-item {
+	display: inline-block;
+	margin-bottom: 80px;
+}
+.catalog-item:nth-child(2n+1) {
+	margin-right: 70px;/*80!!!!*/
+} 
+.pagginator a {
+	display: inline-block;
+}
+.page-btn {
+	width: 35px;
+	height: 35px;
+	margin-right: 10px;
+	border: 2px solid #f1f1f1;
+	background-color: #f1f1f1;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	line-height: 35px;
+	font-weight: bold;
+	border-radius: 2px;
+
+}
+.page-btn:hover {
+	background-color: #ffffff;
+}
+.next-btn {
+	width: 135px;
+	border-radius: 2px;
+} 
+legend {
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+fieldset {
+	margin-bottom: 50px;
+}
+.range {
+	height: 80px;
+	background-color: #f1f1f1;
+	margin-bottom: 15px;
+}
+form label {
+	font-size: 16px;
+/*	line-height: 20px;*/
+}
+.price-to,
+.price-from {
+	width: 80px;
+	height: 40px;
+	box-sizing: border-box;
+	text-align: center;
+/*	font-weight: bold;*/
+	background-color: #f1f1f1;
+	border: none;
+}
+.price-container {
+	display: inline-block;
+}
+.price-container label {
+	margin-right: 5px;
+	border: 1px solid blue
+}
+.price-container:nth-of-type(2)
+ {
+	float: right;
+}
+
+[type="checkbox"],
+[type="radio"] {
+	margin-bottom: 15px;
+	margin-right: 10px;
+}

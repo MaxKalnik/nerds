@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nerds</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css"><link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header class="main-header">
+      <div class="container">
+      	<div class="header-top clearfix">
+			<div class="main-logo">
+				<a href="">
+					<img src="" width="139" height="56">
+				</a>
+			</div>
+			<nav class="main-navigation">
+				<ul class="navigation-list">
+					<li class="navigation-item"><a href="">СТУДИЯ</a></li>
+					<li class="navigation-item"><a href="">КЛИЕНТЫ</a></li>
+					<li class="navigation-item"><a href="">МАГАЗИН</a></li>
+					<li class="navigation-item"><a href="">КОНТАКТЫ</a></li>
+					<li class="navigation-item"><a href="">КОРЗИНА</a></li>
+				</ul>		
+			</nav>
+		
+	  </div>
+	  <div class="catalog-promo">ДОБРО ПОЖАЛОВАТЬ В МАГАЗИН ГОТОВЫХ МАКЕТОВ
+	  </div>
+	</header>
+
+	<main class="main-catalog">
+		<div class="container clearfix">
+
+			<form name="catalog-filter">
+				<fieldset>
+					<legend>СТОИМОСТЬ:</legend>
+		
+					<div class="range">
+						<div class="gray-line">
+							<div class="green-line">
+							</div>
+						</div>
+
+						<div class="circle left-circle"></div>
+						<div class="circle right-circle"></div>  	
+					</div>
+
+					<div class="price-container">
+						<label for="price-from">ОТ</label>
+						<input class="price-from" type="text" name="price-from" value="0">
+					</div>
+
+					<div class="price-container">
+						<label for="price-container">ДО</label>
+						<input class="price-to" type="text" name="price-to" value="15000">
+					</div>
+
+				</fieldset>
+				<fieldset>
+					<legend>СЕТКА</legend>
+					
+					<input type="radio" name="grid-type" id="adaptive" value="option1">
+					<label>Адаптивная</label><br>
+
+					
+					<input type="radio" name="grid-type" id="fixed" value="option2">
+					<label>Фиксированая</label><br>
+
+					
+					<input type="radio" name="grid-type" id="flexible">
+					<label>Резиновая</label>
+				</fieldset>
+				<fieldset>
+					<legend>ОСОБЕННОСТИ</legend>
+					
+					<input type="checkbox" name="maquette" id="slider" value="option1">
+					<label for="slider">Слайдер</label><br>
+
+					
+					<input type="checkbox" name="maquette" id="advantage-block" value="option2">
+					<label for="advantage-block">Блок преимуществ</label><br>
+
+					
+					<input type="checkbox" name="maquette" id="news" value="option3">
+					<label for="news">Новости</label><br>
+
+					
+					<input type="checkbox" name="maquette" id="galerry" value="option4">
+					<label for="galerry">Галерея</label><br>
+
+					
+					<input type="checkbox" name="maquette" id="basket" value="option5">
+					<label for="basket">Корзина</label>
+				</fieldset>
+				<button class="button filter-button">ПОКАЗАТЬ</button>
+			</form>
+
+			<div class="catalog">
+
+				<div class="sort-container clearfix">
+					<p>СОРТИРОВАТЬ:</p>
+					<a href="#">ПО ЦЕНЕ</a>
+					<a href="#">ПО ТИПУ</a>
+					<a href="#">ПО ФУНКЦИОНАЛУ</a>
+
+					<a class="sort-decr" href="#"></a>
+					<a class="sort-incr" href="#"></a>		
+				</div>
+
+				<div class="items-container">
+					<article class="catalog-item">
+						<div class="item-slider">
+							<button class="slider-switcher"></button>
+							<button class="slider-switcher"></button>
+							<button class="slider-switcher"></button>
+						</div>
+						<figure>
+							<img src="" alt="" width="240" height="240">
+<!-- 						<div class="item-info">
+								<h3 class="item-info-title"></h3>
+								<p class="item-info-text"></p>
+								<a class="button item-info-button" href="#"></a>
+							</div> -->
+						</figure>
+					</article>
+					<article class="catalog-item">
+						<div class="item-slider">
+							<button class="slider-switcher"></button>
+							<button class="slider-switcher"></button>
+							<button class="slider-switcher"></button>
+						</div>
+						<figure>
+							<img src="" alt="" width="240" height="240">
+						</figure>
+					</article>
+					<article class="catalog-item">
+						<div class="item-slider">
+							<button class="slider-switcher"></button>
+							<button class="slider-switcher"></button>
+							<button class="slider-switcher"></button>
+						</div>
+						<figure>
+							<img src="" alt="" width="240" height="240">
+						</figure>
+					</article>
+					<article class="catalog-item">
+						<div class="item-slider">
+							<button class="slider-switcher"></button>
+							<button class="slider-switcher"></button>
+							<button class="slider-switcher"></button>
+						</div>
+						<figure>
+							<img src="" alt="" width="240" height="240">
+						</figure>
+					</article>
+					<article class="catalog-item">
+						<div class="item-slider">
+							<button class="slider-switcher"></button>
+							<button class="slider-switcher"></button>
+							<button class="slider-switcher"></button>
+						</div>
+						<figure>
+							<img src="" alt="" width="240" height="240">
+						</figure>
+					</article>
+					<article class="catalog-item">
+						<div class="item-slider">
+							<button class="slider-switcher"></button>
+							<button class="slider-switcher"></button>
+							<button class="slider-switcher"></button>
+						</div>
+						<figure>
+							<img src="" alt="" width="240" height="240">
+						</figure>
+					</article>
+				</div>
+				<div class="pagginator">
+					<a class="page-btn" href="#">1</a>
+					<a class="page-btn" href="#">2</a>
+					<a class="page-btn" href="#">3</a>
+					<a class="page-btn next-btn" href="#">Следующая</a>
+			    </div>
+			</div>
+			
+		</div>		
+	</main>
+
+	<footer class="page-footer">
+  	<div class="map">
+  		<div class="container">
+	  		<div class="map-contacts">
+	  			<b class="map-contacts-title">NЁRDS DESIGN STUDIO</b>
+	  			<p class="map-contacts-text">19186 Санкт-Петербург ул. Большая Конюшенная, д. 19
+	  			8</p>
+	  			<p class="map-contacts-text">тел. +7(812) 275-75-75</p>
+	  			<a class="button" href="#">НАПИШИТЕ НАМ</a>
+	  			
+	  		</div>
+	  		<div class="map-marker">
+	  			<img src="" width="" height="">
+	  		</div>
+	  	</div>
+  	</div>
+  	<div class="container">
+	  	<div class="footer-socials">
+		  	<div class="socials-container">
+		  		<div class="socials-item vk"></div>
+		  		<div class="socials-item fb"></div>
+		  		<div class="socials-item in"></div>
+		  	</div>
+		  	<div class="footer-socials-promo">
+		  		<h2>
+		  			Давайте дружить, это выгодно!
+		  		</h2>
+		  		<p>
+		  			Скидка 10% для друзей из социальных сетей.
+		  		</p>
+		  	</div>
+	  	</div>
+	</div>
+  </footer>
+</body>
+</html>
+
